@@ -45,5 +45,16 @@ Float
 8. Given this users table, write SQL queries using the following criteria and include the output:
 
 The email and sign-up date for the user named DeAndre Data.
+	SELECT email, signup
+	FROM users
+	WHERE name = "DeAndre Data";
+
 The user ID for the user with email 'aleesia.algorithm@uw.edu'.
+	SELECT userid
+	FROM users
+	WHERE email = "alessia.algorithm@uw.edu";
+
 All the columns for the user ID equal to 4.
+	SELECT *
+	FROM users
+	WERE userid = 4;
